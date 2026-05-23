@@ -1,0 +1,12 @@
+{
+    "name": "saverio/veggie-chef",
+    "authors": [
+        {
+            "name": "saverio596",
+            "email": "saverio.benedetto96@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
