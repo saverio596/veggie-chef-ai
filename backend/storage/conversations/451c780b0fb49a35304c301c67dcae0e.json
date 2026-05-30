@@ -1,0 +1,108 @@
+{
+    "id": "451c780b0fb49a35304c301c67dcae0e",
+    "title": "pizza",
+    "createdAt": "2026-05-30T09:35:34+00:00",
+    "updatedAt": "2026-05-30T09:36:01+00:00",
+    "messages": [
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "pizza"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Che tipo di pizza vegetariana ti piacerebbe? \ud83c\udf55 Potrebbe essere una pizza con verdure di stagione, una margherita rivisitata o qualcosa di pi\u00f9 elaborato. Dimmi di pi\u00f9!"
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "verdure di stagione"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "functionCall": {
+                        "name": "searchRecipes",
+                        "args": {
+                            "query": "pizza vegetariana con verdure di stagione"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "function",
+            "parts": [
+                {
+                    "functionResponse": {
+                        "name": "searchRecipes",
+                        "response": {
+                            "results": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Mi dispiace, al momento non ho una ricetta specifica per la pizza vegetariana con verdure di stagione. Tuttavia, posso suggerirti alcune idee per crearne una deliziosa! Potresti usare:\n\n*   **Verdure primaverili:** asparagi, piselli freschi, zucchine novelle, carciofi.\n*   **Verdure estive:** melanzane, peperoni, pomodorini, cipolle rosse.\n*   **Verdure autunnali\/invernali:** zucca, funghi, cavolo nero, broccoli.\n\nInoltre, potresti aggiungere del formaggio vegetale, un pesto fatto in casa o delle erbe aromatiche fresche per un tocco in pi\u00f9! \ud83c\udf3f\n\nTi piacerebbe che provassi a cercare un'altra ricetta, o vuoi che ti dia qualche consiglio su come preparare una pizza con le verdure che hai a disposizione?"
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "Verdure primaverili"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "functionCall": {
+                        "name": "searchRecipes",
+                        "args": {
+                            "query": "pizza vegetariana con verdure primaverili"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "function",
+            "parts": [
+                {
+                    "functionResponse": {
+                        "name": "searchRecipes",
+                        "response": {
+                            "results": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Mi dispiace, non ho trovato una ricetta specifica per la pizza con verdure primaverili. \ud83d\ude15\n\nPer\u00f2 posso darti alcuni suggerimenti per preparare una pizza deliziosa con le verdure di stagione della primavera:\n\n*   **Asparagi:** Tagliali a rondelle sottili o a tocchetti e saltali leggermente in padella prima di metterli sulla pizza.\n*   **Piselli freschi:** Aggiungili quasi a fine cottura per mantenerne la dolcezza e la consistenza.\n*   **Zucchine novelle:** Affettale sottilmente e disponile sulla pizza crude, cuoceranno in forno.\n*   **Carciofi:** Usa i cuori di carciofo sott'olio o falli spadellare velocemente con aglio e prezzemolo.\n\nPotresti anche aggiungere:\n\n*   Un letto di mozzarella vegana o un formaggio spalmabile vegetale.\n*   Un filo d'olio extra vergine d'oliva e qualche fogliolina di menta fresca dopo la cottura.\n\nTi piacerebbe che provassi a cercare un'altra ricetta, o vuoi che ti dia qualche consiglio su come preparare una pizza con le verdure che hai a disposizione?"
+                }
+            ]
+        }
+    ]
+}

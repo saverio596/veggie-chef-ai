@@ -1,0 +1,50 @@
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.mobile-header {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-bottom: 1px solid var(--border-color);
+  font-family: 'Fraunces', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.input-wrapper {
+  padding: 20px;
+  background: linear-gradient(180deg, transparent, var(--bg-color) 40%);
+  position: sticky;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .mobile-header {
+    display: flex;
+  }
+}

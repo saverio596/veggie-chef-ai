@@ -1,0 +1,140 @@
+{
+    "id": "2c3aec0bd9f204df690d6a542b6690b6",
+    "title": "Nuova Conversazione",
+    "createdAt": "2026-05-30T09:10:53+00:00",
+    "updatedAt": "2026-05-30T09:12:07+00:00",
+    "messages": [
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "pizza con le patate"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "functionCall": {
+                        "name": "searchRecipes",
+                        "args": {
+                            "query": "pizza con patate"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "function",
+            "parts": [
+                {
+                    "functionResponse": {
+                        "name": "searchRecipes",
+                        "response": {
+                            "results": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Mi dispiace, al momento non ho ricette per la pizza con le patate. \ud83d\ude14"
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "pizza"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Ah, che ottima scelta! \ud83d\ude0b Per poterti aiutare al meglio, avrei bisogno di qualche informazione in pi\u00f9:\n\n*   **Che tipo di pizza ti piacerebbe?** (es. margherita, vegetariana, con verdure specifiche?)\n*   **Hai degli ingredienti particolari che vorresti usare o evitare?**\n*   **Quanto tempo hai a disposizione per prepararla?**\n\nCos\u00ec posso cercare la ricetta perfetta per te!"
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "margherita. Non ho degli ingredienti particolari. Ho 10 minuti di tempo per prepararla"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Capisco che ti piacerebbe una pizza Margherita! \ud83c\udf55 Per\u00f2, con soli 10 minuti a disposizione, \u00e8 molto difficile preparare una vera pizza, anche usando una base gi\u00e0 pronta, perch\u00e9 la cottura da sola richiede pi\u00f9 tempo.\n\nIntendevi 10 minuti di preparazione attiva, escludendo il tempo di cottura, oppure 10 minuti in totale dall'inizio alla fine? Se il tempo \u00e8 cos\u00ec stringente, potremmo pensare a qualcosa di molto pi\u00f9 veloce che richiami il sapore della pizza!"
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "sisi"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Capisco! \"Sisi\" vuol dire che il tempo \u00e8 davvero pochissimo, 10 minuti in totale.\n\nIn questo caso, non \u00e8 possibile preparare una pizza Margherita tradizionale, nemmeno con una base gi\u00e0 pronta, perch\u00e9 il tempo di cottura da solo \u00e8 superiore a 10 minuti.\n\nChe ne dici di un'alternativa super veloce che richiami i sapori della pizza? Potremmo fare dei \"crostini pizza\" o dei \"panini veloci al pomodoro e mozzarella\" che si preparano e si cuociono in pochissimo tempo, magari usando del pane in cassetta o delle fette biscottate come base? \ud83c\udf5e\ud83e\uddc0\ud83c\udf45"
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "crostini pizza"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "functionCall": {
+                        "name": "searchRecipes",
+                        "args": {
+                            "query": "crostini pizza"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "function",
+            "parts": [
+                {
+                    "functionResponse": {
+                        "name": "searchRecipes",
+                        "response": {
+                            "results": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Mi dispiace, al momento non ho una ricetta specifica per i \"crostini pizza\" nella mia banca dati. \ud83d\ude14\n\nPer\u00f2, posso darti un'idea di come prepararli al volo, \u00e8 semplicissimo!\n\n**Crostini Pizza Velocissimi \ud83c\udf45\ud83c\udf3f\ud83e\uddc0**\n\n**Ingredienti:**\n*   Fette di pane (tipo baguette o pane in cassetta)\n*   Passata di pomodoro o polpa fine\n*   Mozzarella o formaggio filante vegetale\n*   Origano\n*   Un filo d'olio d'oliva\n\n**Preparazione (meno di 10 minuti!):**\n1.  Scalda il forno a 180-200\u00b0C (o usa un tostapane\/forno a microonde con grill).\n2.  Disponi le fette di pane su una teglia.\n3.  Spalma un cucchiaino di passata di pomodoro su ogni fetta.\n4.  Aggiungi la mozzarella o il formaggio vegetale tagliato a cubetti o grattugiato.\n5.  Spolvera con origano e un filo d'olio.\n6.  Inforna per 3-5 minuti, o finch\u00e9 il formaggio non si sar\u00e0 sciolto e leggermente dorato.\n\nSpero ti piaccia questa idea super rapida! Fammi sapere se vuoi provare qualcos'altro!"
+                }
+            ]
+        }
+    ]
+}

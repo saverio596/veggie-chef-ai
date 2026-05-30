@@ -1,0 +1,50 @@
+{
+    "id": "d39812d7b6d82da7eccffe0ea14a3d89",
+    "title": "Nuova Conversazione",
+    "createdAt": "2026-05-30T09:14:53+00:00",
+    "updatedAt": "2026-05-30T09:14:54+00:00",
+    "messages": [
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "Pasta vegana veloce"
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "functionCall": {
+                        "name": "searchRecipes",
+                        "args": {
+                            "query": "Pasta vegana veloce"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "function",
+            "parts": [
+                {
+                    "functionResponse": {
+                        "name": "searchRecipes",
+                        "response": {
+                            "results": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "role": "model",
+            "parts": [
+                {
+                    "text": "Mi dispiace, ma non ho trovato ricette di pasta vegana che corrispondano esattamente a \"veloce\". Forse potremmo provare a cercare qualcosa di pi\u00f9 specifico? Ad esempio, hai qualche ingrediente in mente o un tempo massimo di preparazione? \u23f1\ufe0f"
+                }
+            ]
+        }
+    ]
+}
