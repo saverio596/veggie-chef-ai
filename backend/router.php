@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('log_errors', 1);
-error_reporting(E_ALL);
 
 $allowedOrigins = [
     'https://veggie-chef-ai.vercel.app',
@@ -9,7 +6,9 @@ $allowedOrigins = [
 ];
 
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
-if (in_array($origin, $allowedOrigins)) {
+
+// Permetti tutti i deploy preview di Vercel
+if (in_array($origin, $allowedOrigins) || preg_match('/^https:\/\/veggie-chef-ai-.*\.vercel\.app$/', $origin)) {
     header("Access-Control-Allow-Origin: $origin");
 }
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
