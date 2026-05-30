@@ -55,7 +55,7 @@ export default function ChatInput({ onSend, disabled, isEmpty }) {
         </button>
       </div>
       <div className="footer-text">
-        VeggieChef può commettere errori. Considera di verificare le ricette.
+        VeggieChef può commettere errori.
       </div>
     </div>
   );
